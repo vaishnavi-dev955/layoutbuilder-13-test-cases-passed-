@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.Header-container1 {
+  background-color: #cbd5e1;
+  height: 10vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Header-heading {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+}

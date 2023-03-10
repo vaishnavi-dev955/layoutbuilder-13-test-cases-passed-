@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.Footer-container {
+  background-color: #cbd5e1;
+  height: 10vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Footer-heading {
+  color: #475569;
+  font-size: 25px;
+  font-family: 'Roboto';
+}

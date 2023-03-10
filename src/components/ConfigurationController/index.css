@@ -1,0 +1,35 @@
+.ConfigurationController-container {
+  background-color: #475569;
+  height: 30vh;
+  width: 100vw;
+  padding-left: 50px;
+}
+
+.ConfigurationController-heading {
+  color: #f1f5f9;
+  font-size: 25px;
+  font-family: 'Roboto';
+  padding-top: 10px;
+  padding-left: 47px;
+}
+
+.label-para {
+  font-size: 20px;
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  padding-left: 10px;
+}
+
+.check-box-style {
+  height: 20px;
+  width: 20px;
+  background-color: #f1f5f9;
+}
+
+.list-item {
+  display: flex;
+}
+
+.checkboxes-list {
+  list-style-type: none;
+}
