@@ -5,6 +5,9 @@ const ConfigurationController = () => (
   <ConfigurationContext.Consumer>
     {value => {
       const {
+        showContent,
+        showLeftNavbar,
+        showRightNavbar,
         onToggleShowContent,
         onToggleShowLeftNavbar,
         onToggleShowRightNavbar,
@@ -29,6 +32,7 @@ const ConfigurationController = () => (
                 className="check-box-style"
                 id="checkbox1"
                 onChange={onChangeToggleShowContent}
+                checked={showContent}
               />
               <label className="label-para" htmlFor="checkbox1">
                 Content
@@ -40,6 +44,7 @@ const ConfigurationController = () => (
                 className="check-box-style"
                 id="checkbox2"
                 onChange={onChangeToggleShowLeftNavbar}
+                checked={showLeftNavbar}
               />
               <label className="label-para" htmlFor="checkbox2">
                 Left Navbar
@@ -51,6 +56,7 @@ const ConfigurationController = () => (
                 className="check-box-style"
                 id="checkbox3"
                 onChange={onChangeToggleShowRightNavbar}
+                checked={showRightNavbar}
               />
               <label className="label-para" htmlFor="checkbox3">
                 Right Navbar
