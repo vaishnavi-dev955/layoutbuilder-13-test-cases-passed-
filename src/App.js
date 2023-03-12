@@ -14,11 +14,11 @@ class App extends Component {
   }
 
   onToggleShowLeftNavbar = () => {
-    this.setState(prevState => ({showRightNavbar: !prevState.showRightNavbar}))
+    this.setState(prevState => ({showLeftNavbar: !prevState.showLeftNavbar}))
   }
 
   onToggleShowRightNavbar = () => {
-    this.setState(prevState => ({showLeftNavbar: !prevState.showLeftNavbar}))
+    this.setState(prevState => ({showRightNavbar: !prevState.showRightNavbar}))
   }
 
   render() {
